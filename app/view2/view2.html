@@ -1,5 +1,22 @@
-<p>This is the partial for view 2.</p>
-<p>
-  Showing of 'interpolate' filter:
-  {{ 'Current version is v%VERSION%.' | interpolate }}
+<p>{{bottle.year}} {{bottle.vineyard }}{{bottle.appellation}} {{bottle.extra}}</p>
+    <table>
+        <tr>
+            <td>{{bottle.vineyard}}</td>
+            <td><img ng-src="{{bottle.images[0]}}"></td>
+            <td>Price {{bottle.cost | currency}}</td>
+            <td><a ng-href="{{bottle.url}}">Check this out</a> </td>
+        </tr>
+</table>
 </p>
+
+<!--
+"id":"3",
+"vineyard": "Cave De Saint-Desirat",
+"type": "Rouge",
+"year": "2011",
+"appellation": "Saint Joseph",
+"extra": "Les Mariniers",
+"cost":"9.75",
+"url":"http://www.cave-saint-desirat.com/SAINT-JOSEPH-ROUGE-LES-MARINIERS-10.html",
+"images": ["img/SaintDesiratLesMariniers2010.jpg"]
+-->

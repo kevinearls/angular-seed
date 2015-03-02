@@ -1,0 +1,12 @@
+{
+  "id":"2",
+  "vineyard": "Guigal",
+  "type": "Rouge", 
+  "year": "2009",
+  "appellation": "Cote Rotie",
+  "extra": "Blonde et Brune",
+  "cost":"32,90",
+  "url":"http://www.guigal.com/en/vins.php?id_millesime=10&id_produit=12",
+  "images": ["img/cote_rotie_brune_et_blonde_de_guigal nouv_2_Zoom.jpeg"]
+}
+
